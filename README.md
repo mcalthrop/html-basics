@@ -157,44 +157,59 @@ Replace everything that is in your `index.html` file with the following:
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <!-- this section contains information about the HTML document -->
     <title>HTML basics</title>
-  </head>
-  <body>
-    <!-- and this section contains the main body of the HTML document -->
-    <h1>The basics of HTML</h1>
+</head>
+<body>
+<!-- and this section contains the main body of the HTML document -->
+<h1>The basics of HTML</h1>
 
-    <h2>Several paragraphs</h2>
-    
-    <p>This is the day your life will surely change.</p>
-    <p>Pack my box with five dozen liquor jugs.</p>
-    <p>Exploring the zoo, we saw every kangaroo jump and quite a few carried babies.</p>
+<h2>Several paragraphs</h2>
 
-    <h2>Lists</h2>
-    
-    <h3>Unordered</h3>
-    <ul>
-      <li>alpha</li>
-      <li>beta</li>
-      <li>gamma</li>
-    </ul>
+<p>This is the day your life will surely change.</p>
+<p>Pack my box with five dozen liquor jugs.</p>
+<p>Exploring the zoo, we saw every kangaroo jump and quite a few carried babies.</p>
 
-    <h3>Ordered</h3>
-    
-    <ol>
-      <li>break eggs</li>
-      <li>add flour</li>
-      <li>add sugar</li>
-      <li>shove in the oven</li>
-      <li>hope for the best</li>
-    </ol>
-    
-    <h3>Images</h3>
-    
-    <img src="http://vignette1.wikia.nocookie.net/suburgatory/images/5/52/Happy_face.jpg" />
-    <img src="http://i.ytimg.com/vi/VQtbKGzI9SE/hqdefault.jpg" />
-  </body>
+<h2>A form</h2>
+
+<form>
+    <label>
+        Your first name:
+        <input type="text" name="firstName" />
+    </label>
+    <label>
+        Your age:
+        <input type="number" name="age" />
+    </label>
+    <button type="button">Add me!</button>
+</form>
+
+<h2>Lists</h2>
+
+<h3>Unordered</h3>
+<ul>
+    <li>alpha</li>
+    <li>beta</li>
+    <li>gamma</li>
+</ul>
+
+<h3>Ordered</h3>
+
+<ol>
+    <li>break eggs</li>
+    <li>add flour</li>
+    <li>add sugar</li>
+    <li>shove in the oven</li>
+    <li>hope for the best</li>
+</ol>
+
+<h2>Images</h2>
+
+<img src="http://vignette1.wikia.nocookie.net/suburgatory/images/5/52/Happy_face.jpg" />
+<img src="http://i.ytimg.com/vi/VQtbKGzI9SE/hqdefault.jpg" />
+
+</body>
 </html>
 ```
 
