@@ -95,7 +95,7 @@ Attributes essentially provide additional information about an element.
 A useful example is `<img>`, the HTML element that allows us to insert an image:
 
 ```html
-<img src="http://vignette1.wikia.nocookie.net/suburgatory/images/5/52/Happy_face.jpg" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" />
 ```
 
 Note the following about the above HTML snippet:
@@ -206,8 +206,8 @@ Replace everything that is in your `index.html` file with the following:
 
 <h2>Images</h2>
 
-<img src="http://vignette1.wikia.nocookie.net/suburgatory/images/5/52/Happy_face.jpg" />
-<img src="http://i.ytimg.com/vi/VQtbKGzI9SE/hqdefault.jpg" />
+<img width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1200px-SNice.svg.png" />
+<img width="400" src="http://i.ytimg.com/vi/VQtbKGzI9SE/hqdefault.jpg" />
 
 </body>
 </html>
