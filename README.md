@@ -230,3 +230,6 @@ Replace everything that is in your `index.html` file with the following:
 - http://www.evolutionoftheweb.com/
 - https://en.wikipedia.org/wiki/XML
 
+## License
+
+[MIT](LICENSE)
